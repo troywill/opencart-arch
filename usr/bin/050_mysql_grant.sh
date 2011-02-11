@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "GRANT ALL ON database.* TO username@'localhost' IDENTIFIED BY 'password';"
+echo "GRANT ALL ON sportempires.* TO sportempires@'localhost' IDENTIFIED BY 'sportempires';"
 
