@@ -1,0 +1,5 @@
+#!/bin/bash
+EDITOR='emacs'
+SUDO='sudo'
+
+${SUDO} pacman --sync php-apache
