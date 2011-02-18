@@ -3,7 +3,7 @@ EDITOR='emacs'
 SUDO='sudo'
 
 ${SUDO} pacman --sync apache
-${SUDO} ${EDITOR} /etc/http/
+${SUDO} ${EDITOR} /etc/httpd/
 ${SUDO} /etc/rc.d/httpd start
 ${SUDO} ${EDITOR} /etc/rc.conf
 
