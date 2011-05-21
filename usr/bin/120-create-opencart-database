@@ -1,0 +1,2 @@
+CREATE DATABASE opencart;
+GRANT ALL PRIVILEGES ON opencart.* TO opencart@'localhost' IDENTIFIED BY 'password';
